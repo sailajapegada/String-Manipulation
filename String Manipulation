@@ -1,0 +1,17 @@
+def string_manipulation(input_str):
+    # 1. Reverse the string
+    reversed_str = input_str[::-1]
+    print("1. Reversed string:", reversed_str)
+
+    # 2. Convert to uppercase
+    uppercase_str = input_str.upper()
+    print("2. Uppercase string:", uppercase_str)
+
+    # 3. Convert to lowercase
+    lowercase_str = input_str.lower()
+    print("3. Lowercase string:", lowercase_str)
+
+    # 4. Count occurrences of a specific character
+    char_to_count = input("Enter a character to count: ")
+    count = input_str.count(char_to_count)
+    print(f"4. Occurrences of '{char_to_count}': {count}")
